@@ -60,16 +60,6 @@ ctest --verbose
 - [gtest](https://github.com/google/googletest) [tests only]
 
 
-## Notes
-
-### Legacy C++ support
-
-This library is written in C++17, but usage of syntax/STL features is fairly limited. Namely,
-there is liberal usage of `if constexpr` over the older `enable_if` tricks for clarity.
-
-If there is a demonstrated need for C++11/14 support, getting things in shape would be very doable.
-
-
 ### Build System Requirements
 
 At least CMake v3.13.
